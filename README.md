@@ -1,7 +1,7 @@
 CPTS 471 - Computational Genomics
 
-Project 1: Pairwise Sequence Alignment
-- Implements Needleman-Wunsch global alignment and Smith-Waterman local alignment algorithms to align two biological sequences
+**Project 1: Pairwise Sequence Alignment**
+- Implements** Needleman-Wunsch global alignment** and **Smith-Waterman local alignment algorithms** to align two biological sequences
 - Accepts input sequences in FASTA format and scoring parameters via config file
 - Generates optimal pairwise alignment matrix and traces back highest score path
 - Produces sequence alignments indicating matches, mismatches and gaps
@@ -11,6 +11,16 @@ Project 1: Pairwise Sequence Alignment
 = Provides core functionality for determining functional and evolutionary similarities between DNA or protein sequences
 
 
-Programming Project #2: Suffix tree construction
+**Programming Project #2: Suffix tree construction**
+- Provides two construction algorithms - **Ukkonen's and McCreight's **
+- Supports traversal methods like depth-first search
+- Analyzes suffix trees to find average depth, longest repeated substrings etc.
+- Reads genomic sequence data from FASTA files as input
+- Useful for testing and analyzing suffix tree algorithms
+- Can be enhanced by adding more analysis functions, optimizations etc.
+- Good demonstration of tree data structures and algorithms
+- Serves as a library for suffix tree construction and analysis
+- Enables experimenting with different construction techniques
+- Input sequences allow testing on real genomic datasets
 
 Programming Project #3: Genome-scale comparisons for Covid strains
