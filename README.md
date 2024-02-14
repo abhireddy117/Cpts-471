@@ -23,4 +23,11 @@ CPTS 471 - Computational Genomics
 - Enables experimenting with different construction techniques
 - Input sequences allow testing on real genomic datasets
 
-Programming Project #3: Genome-scale comparisons for Covid strains
+**Programming Project #3: Genome-scale comparisons for Covid strains**
+
+- Constructs a generalized suffix tree by combining multiple DNA sequences with separator symbols and incrementally inserting all suffixes.
+- Splits existing tree edges when incoming suffix does not match, handles mismatches efficiently.
+- Stores start/end indices, suffix index, string depth for each node.
+- Calculates statistics like number of nodes, average depth of internal nodes for analysis.
+- Finds and prints longest repeated substring based on deepest internal node.
+- Demonstrates efficient construction, traversal and analysis methods on suffix trees for pattern matching across lengthy DNA sequences.
